@@ -1,0 +1,611 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyen Vuong",
+      "email": "vuong@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "4099",
+      "name": "tai vuong",
+      "email": "vuong123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "9999",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Giày thể thao nam Fly",
+      "description": "Giày chạy bộ, êm ái, thoáng khí.",
+      "price": 900000,
+      "images": [
+        "https://ash.vn/cdn/shop/files/c1dfe39fe482283d70d11640af02b80c_800x.jpg?v=1741354946",
+        "https://ash.vn/cdn/shop/files/6b6ac482758de40e4613a5adc7562fda_800x.jpg?v=1741354946",
+        "https://ash.vn/cdn/shop/files/0d53a7cf8864fa8270faa020c5286500_800x.jpg?v=1741354946"
+      ],
+      "category": "shoes",
+      "gender": "men",
+      "stock": 20,
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Áo thun thể thao nam",
+      "description": "Áo thun cotton 100%, form ôm vừa phải.",
+      "price": 250000,
+      "images": [
+        "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-1_10.jpg?aio=w-1100",
+        "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-2_90.jpg?aio=w-1100",
+        "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-4_63.jpg?aio=w-1100"
+      ],
+      "category": "clothes",
+      "gender": "men",
+      "stock": 50,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Vớ thể thao nữ",
+      "description": "Vớ thấm hút mồ hôi, combo 3 đôi.",
+      "price": 220000,
+      "images": [
+        "https://contents.mediadecathlon.com/p1692573/k$4b4e367ab434af13d97cfb7f3133c287/g%C3%B3i-3-%C4%91%C3%B4i-t%E1%BA%A5t-ch%E1%BA%A1y-b%E1%BB%99-run-100-%C4%91en-kiprun-8296178.jpg?f=768x0&format=auto",
+        "https://contents.mediadecathlon.com/p1961439/k$f00c14233fa98545a6c0c66a144fba41/g%C3%B3i-3-%C4%91%C3%B4i-t%E1%BA%A5t-ch%E1%BA%A1y-b%E1%BB%99-run-100-%C4%91en-kiprun-8296178.jpg?f=768x0&format=auto",
+        "https://contents.mediadecathlon.com/p1961441/k$c86ce8b95379b3052faef3f8b779c925/g%C3%B3i-3-%C4%91%C3%B4i-t%E1%BA%A5t-ch%E1%BA%A1y-b%E1%BB%99-run-100-%C4%91en-kiprun-8296178.jpg?f=768x0&format=auto"
+      ],
+      "category": "accessories",
+      "gender": "women",
+      "sizes": [
+        "Free Size"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Áo thể thao Polo nữ",
+      "description": "Thấm hút mồ hôi tốt , áo co dãn mặc thoải mái không lo kích",
+      "price": 100000,
+      "images": [
+        "https://product.hstatic.net/200000940675/product/f6252038__1__945bdf4d6dce4ff9b0c384dbedae3461_1024x1024.png",
+        "https://product.hstatic.net/200000940675/product/f6252038__2__930c51a8787c499da21abcb8ecd8d3b8_1024x1024.png",
+        "https://product.hstatic.net/200000940675/product/f6252038__3__2e449a04b0a948969dc2f6cbf2da137e_1024x1024.png"
+      ],
+      "category": "clothes",
+      "gender": "women",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Áo thể thao Polo Nam",
+      "description": "Thấm hút mồ hôi tốt , áo co dãn mặc thoải mái không lo kích",
+      "price": 350000,
+      "images": [
+        "https://cdn.hstatic.net/products/1000288768/d75e016e993e14604d2f1_60474e327cb449cbb69fdcd4ae7f9927_master.jpg",
+        "https://cdn.hstatic.net/products/1000288768/3948a6633e33b36dea225_543f88540b0d48d89ce073af3883d83a_master.jpg",
+        "https://cdn.hstatic.net/products/1000288768/248de0a078f0f5aeace14_c6021896a1db4082b9aebaeb597214b3_master.jpg"
+      ],
+      "category": "clothes",
+      "gender": "men",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Giày thể thao Nữ",
+      "description": "Giày đế êm, giải phóng mồ hôi, cực tốt giúp vận động dễ dàng linh hoạt hơn",
+      "price": 400000,
+      "images": [
+        "https://cdn.hstatic.net/products/1000230642/hsw011200xam__7__2d196cf9c14f4ac69d748e7501cb6f20_master.jpg",
+        "https://cdn.hstatic.net/products/1000230642/hsw011200xam__9__55e84950b61a4c5893447a72441bb4f3_master.jpg",
+        "https://cdn.hstatic.net/products/1000230642/hsw011200xam__12__801a160360264582ab547514b637d070_master.jpg"
+      ],
+      "category": "shoes",
+      "gender": "women",
+      "sizes": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Tất thể thao nam",
+      "description": "Tất ôm quanh vòm bàn chân và nâng đỡ những vùng chịu áp lực cao ở gót và mũi chân.",
+      "price": 360000,
+      "images": [
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1359ff009f814d3eadebaf47013f155e_9366/Bo_3_DJoi_Tat_Cao_Co_Co_DJem_trang_IA3949_01_01_00_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c8199148341b4bba82edaf47013f4bbe_9366/Bo_3_DJoi_Tat_Cao_Co_Co_DJem_Xam_IA3951_01_01_00_standard.jpg",
+        "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/062e45c655be41e99f6860431c44d125_9366/Bo_3_DJoi_Tat_Cao_Co_Co_DJem_trang_IZ0161_01_01_00_standard.jpg"
+      ],
+      "category": "accessories",
+      "gender": "men",
+      "sizes": [
+        "Free Size"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Giày thể thao nam nike",
+      "description": "Giày Nike Metcon 10 là thế hệ mới nhất trong dòng giày training nổi tiếng của Nike.",
+      "price": 3600000,
+      "images": [
+        "https://myshoes.vn/image/cache/catalog/2025/nike/nike10/giay-nike-metcon-10-nam-den-trang-01-1600x1600.jpg",
+        "https://myshoes.vn/image/cache/catalog/2025/nike/nike10/giay-nike-metcon-10-nam-den-trang-05-1600x1600.jpg",
+        "https://myshoes.vn/image/cache/catalog/2025/nike/nike10/giay-nike-metcon-10-nam-den-trang-06-1600x1600.jpg"
+      ],
+      "category": "shoes",
+      "gender": "men",
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "1761603958527",
+      "name": "Giày Jordan thể thao",
+      "description": "Giày đi thoáng chân dễ dàng hơn khi chạy bộ, vừa có thể mang như một đôi giày thời trang",
+      "price": 1100000,
+      "category": "shoes",
+      "gender": "women",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b0c5f2a-0892-4c17-baed-3e2a64798b04/WMNS+JORDAN+TRUNNER+LX.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e68ca5e-58cb-46a3-8e89-e7b3f39e1ae9/WMNS+JORDAN+TRUNNER+LX.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f09c7832-f10c-4573-ae5a-19379adfca2d/WMNS+JORDAN+TRUNNER+LX.png"
+      ],
+      "sizes": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "stock": 10
+    },
+    {
+      "id": "1761901634813",
+      "name": "Vớ nike nam",
+      "description": "Tất Nike Sportswear Everyday Essential được làm từ vải mềm, co giãn, ôm vừa vặn với bàn chân của bạn mang lại cảm giác thoải mái suốt cả ngày.",
+      "price": 439000,
+      "category": "accessories",
+      "gender": "men",
+      "images": [
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/43b00079-ecb9-4ca6-8256-07c7f93359f8/U+NK+NSW+EVERYDAY+ESSENTIAL+CR.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/b5570fac-5861-441e-8923-5a6bb50e9369/U+NK+NSW+EVERYDAY+ESSENTIAL+CR.png",
+        "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/656cae03-5aee-47f3-932a-68a32a0d7714/U+NK+NSW+EVERYDAY+ESSENTIAL+CR.png"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "stock": 10
+    },
+    {
+      "id": "1761901870358",
+      "name": "Áo thể thao nữ",
+      "description": "Áo bra thể thao form ôm (Slim fit)\nChất liệu vải tái chế thân thiện môi trường, an toàn cho mọi loại da, không gây kích ứng và bền vững\nTính năng DRI – AIR siêu khô thoáng, thấm hút mồ hôi tốt và nhanh khô, mang lại cảm giác thoải mái kể cả khi vận động ở cường độ cao\nPhù hợp đa dạng hoạt động như tập Gym, Yoga/ Pilates, Racquet Sports (Pickleball, Cầu lông, Tennis,…)",
+      "price": 379000,
+      "category": "clothes",
+      "gender": "women",
+      "images": [
+        "https://deltasport.vn/wp-content/uploads/2025/05/BR074W1-bra-the-thao-den-379K-2.png",
+        "https://deltasport.vn/wp-content/uploads/2025/05/BR074W1-bra-the-thao-den-379K-3.png",
+        "https://deltasport.vn/wp-content/uploads/2025/05/BR074W1-bra-the-thao-den-379K-4.png"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 10
+    },
+    {
+      "id": "1761902171356",
+      "name": "Nón Daily Cap",
+      "description": "Nón lưỡi trai Daily Cap form Unisex phù hợp cho cả nam và nữ.\nBề mặt vải nón thiết kế các lỗ thoáng khí giúp tăng độ thông thoáng khi sử dụng.\nKết nón cong lớn che chắn tốt cho khuôn mặt và hạn chế ánh sáng chiếu vào mắt.\nKhóa dán chắc chắn, dễ dàng điều chỉnh – thay đổi kích thước theo nhu cầu.",
+      "price": 320000,
+      "category": "accessories",
+      "gender": "women",
+      "images": [
+        "https://deltasport.vn/wp-content/uploads/2025/06/HA002U1-non-ket-daily-cap-229K-3.jpg",
+        "https://deltasport.vn/wp-content/uploads/2025/06/HA002U1-non-ket-daily-cap-229K-2.jpg",
+        "https://deltasport.vn/wp-content/uploads/2025/06/HA002U1-non-ket-daily-cap-229K-1.png"
+      ],
+      "sizes": [
+        "Free Size"
+      ],
+      "stock": 10,
+      "updatedAt": "2026-01-17T15:35:04.707Z"
+    },
+    {
+      "id": "1762604813765",
+      "name": "Áo nike chính hãng ",
+      "description": "áo mặc thoáng , thấm hút mồ hôi",
+      "price": 400000,
+      "category": "clothes",
+      "gender": "men",
+      "images": [
+        "https://sneakerdaily.vn/wp-content/uploads/2025/07/Ao-Nike-Sportswear-Club-Black-AR4999-013.jpg",
+        "https://sneakerdaily.vn/wp-content/uploads/2025/07/Ao-Nike-Sportswear-Club-Black-AR4999-013-2.jpg",
+        "https://sneakerdaily.vn/wp-content/uploads/2025/07/Ao-Nike-Sportswear-Club-Black-AR4999-013-3.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 10
+    },
+    {
+      "id": "1768664758576",
+      "createdAt": "2026-01-17T15:45:58.584Z",
+      "name": "Áo khoác thể thao Việt Nam",
+      "description": "Áo mặc thoáng mát dễ vận động , áo thể thao thời trang hot 2026",
+      "price": 850000,
+      "category": "clothes",
+      "gender": "men",
+      "images": [
+        "https://cdn.hstatic.net/products/1000288768/128_c230b1ea53df45dda75c28e3dab04c7e_master.jpg",
+        "https://cdn.hstatic.net/products/1000288768/131_da13777eb8ef497aa0297d31b8a41a46_master.jpg",
+        "https://cdn.hstatic.net/products/1000288768/134_a80eb119cb5945cca92b173a37175200_master.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 10
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "rating": 5,
+      "comment": "Rất êm, đẹp!"
+    },
+    {
+      "id": "fa5d",
+      "productId": 2,
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "rating": 5,
+      "comment": "áo dễ mặc thấm hút tốt sẽ ủng hộ thêm"
+    },
+    {
+      "id": "abff",
+      "productId": 1762604813765,
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "rating": 5,
+      "comment": "áo mặc tốt sẽ mua lại"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1761348220129",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "Ngõ 419 đường Phan Trọng Tuệ",
+      "phone": "0359811592",
+      "coords": [
+        20.9429873,
+        105.8441611
+      ],
+      "items": [
+        {
+          "productId": "6",
+          "name": "Giày thể thao Nữ",
+          "price": 400000,
+          "quantity": 1,
+          "size": "Free",
+          "image": "https://cdn.hstatic.net/products/1000230642/hsw011200xam__7__2d196cf9c14f4ac69d748e7501cb6f20_master.jpg"
+        }
+      ],
+      "total": 400000,
+      "status": "delivered",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-10-24T23:23:40.129Z"
+    },
+    {
+      "id": "1761384782086",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "Ngõ 419 đường phan trọng tuệ",
+      "phone": "0921961013",
+      "coords": [
+        20.9429873,
+        105.8441611
+      ],
+      "items": [
+        {
+          "productId": "2",
+          "name": "Áo thun thể thao nam Basic",
+          "price": 250000,
+          "quantity": 1,
+          "size": "XL",
+          "image": "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-1_10.jpg?aio=w-1100"
+        }
+      ],
+      "total": 250000,
+      "status": "pending",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-10-25T09:33:02.086Z"
+    },
+    {
+      "id": "1761602838912",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 đường phan trọng tuê , hà nội",
+      "phone": "0359811596",
+      "coords": [
+        20.9558402,
+        105.8103623
+      ],
+      "items": [
+        {
+          "productId": "8",
+          "name": "Giày thể thao nam nike",
+          "price": 3600000,
+          "quantity": 1,
+          "size": "Free",
+          "image": "https://myshoes.vn/image/cache/catalog/2025/nike/nike10/giay-nike-metcon-10-nam-den-trang-01-1600x1600.jpg"
+        }
+      ],
+      "total": 3550000,
+      "voucher": "GIAM50K",
+      "status": "pending",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-10-27T22:07:18.912Z"
+    },
+    {
+      "id": "1761663198909",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 đường phan trọng tuệ , hà nội",
+      "phone": "0359811596",
+      "coords": [
+        20.9558402,
+        105.8103623
+      ],
+      "items": [
+        {
+          "productId": "1761603958527",
+          "name": "Giày Jordan thể thao",
+          "price": 1100000,
+          "quantity": 1,
+          "size": "Free",
+          "image": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9b0c5f2a-0892-4c17-baed-3e2a64798b04/WMNS+JORDAN+TRUNNER+LX.png"
+        }
+      ],
+      "total": 1050000,
+      "voucher": "GIAM50K",
+      "status": "pending",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-10-28T14:53:18.909Z"
+    },
+    {
+      "id": "1761833005643",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 đường phan trọng tuệ , hà nội",
+      "phone": "0359811593",
+      "coords": [
+        20.9558402,
+        105.8103623
+      ],
+      "items": [
+        {
+          "productId": "1",
+          "name": "Giày thể thao nam Fly",
+          "price": 900000,
+          "quantity": 1,
+          "size": 41,
+          "image": "https://ash.vn/cdn/shop/files/c1dfe39fe482283d70d11640af02b80c_800x.jpg?v=1741354946"
+        }
+      ],
+      "total": 850000,
+      "voucher": "GIAM50K",
+      "status": "delivered",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-10-30T14:03:25.643Z"
+    },
+    {
+      "id": "1762604566394",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 đường phan trọng tuệ hà nội",
+      "phone": "0359811596",
+      "coords": [
+        20.9558402,
+        105.8103623
+      ],
+      "items": [
+        {
+          "productId": "1",
+          "name": "Giày thể thao nam Fly",
+          "price": 900000,
+          "quantity": 1,
+          "size": 41,
+          "image": "https://ash.vn/cdn/shop/files/c1dfe39fe482283d70d11640af02b80c_800x.jpg?v=1741354946"
+        }
+      ],
+      "total": 810000,
+      "voucher": "GIAM10",
+      "status": "pending",
+      "deliveryStatus": "delivered",
+      "createdAt": "2025-11-08T12:22:46.394Z"
+    },
+    {
+      "id": "1768561767456",
+      "createdAt": "2026-01-16T11:09:27.456Z",
+      "status": "delivered",
+      "deliveryStatus": "delivered",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 phan trọng tuệ hà nội",
+      "phone": "0921961012",
+      "coords": [
+        20.9432172,
+        105.8425122
+      ],
+      "items": [
+        {
+          "productId": "2",
+          "name": "Áo thun thể thao nam",
+          "price": 250000,
+          "quantity": 1,
+          "size": "Free",
+          "image": "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-1_10.jpg?aio=w-1100"
+        }
+      ],
+      "total": 250000,
+      "voucher": "FREESHIP"
+    },
+    {
+      "id": "1768570569737",
+      "createdAt": "2026-01-16T13:36:09.737Z",
+      "status": "delivered",
+      "deliveryStatus": "delivered",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "48 vũ trọng phụng",
+      "phone": "0964110121",
+      "coords": [
+        10.7926657,
+        106.6333463
+      ],
+      "items": [
+        {
+          "productId": "1761902171356",
+          "name": "Nón Daily Cap",
+          "price": 229000,
+          "quantity": 1,
+          "size": "Free",
+          "image": "https://deltasport.vn/wp-content/uploads/2025/06/HA002U1-non-ket-daily-cap-229K-3.jpg"
+        }
+      ],
+      "total": 229000,
+      "voucher": "FREESHIP"
+    }
+  ],
+  "favorites": [],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Cách chọn giày chạy bộ phù hợp với dáng chân",
+      "author": "Shop Sport",
+      "date": "2025-10-20",
+      "image": "https://file.hstatic.net/1000230642/file/giay-chay-bo-6_7a1f4c2ceae74fe892a4cc93e9fd33f3.jpg",
+      "content": "Khi chọn giày chạy bộ, bạn nên quan tâm đến dáng chân (bình thường, bẹt hay vòm cao) để chọn được đôi giày có phần đế phù hợp. Ngoài ra, hãy thử giày vào buổi chiều khi chân to nhất để chọn đúng size. Đôi giày vừa vặn sẽ giúp bạn chạy thoải mái hơn và tránh chấn thương."
+    },
+    {
+      "id": "2",
+      "title": "5 xu hướng thời trang thể thao nổi bật 2025",
+      "author": "Nguyen Vuong",
+      "date": "2025-10-21",
+      "image": "https://5goalsport.com/wp-content/uploads/2025/07/BLOG-WEBSITE-5GOAL-SPORT-1536x864.jpg",
+      "content": "Năm 2025 chứng kiến sự lên ngôi của phong cách thể thao năng động nhưng vẫn tối giản. Các chất liệu tái chế thân thiện môi trường, tông màu pastel và thiết kế unisex sẽ trở thành xu hướng chính trong thời trang thể thao năm nay."
+    },
+    {
+      "id": "3",
+      "title": "Mẹo giặt và bảo quản áo thể thao luôn như mới",
+      "author": "Admin",
+      "date": "2025-10-23",
+      "image": "https://n7media.coolmate.me/image/July2025/Bi-quyet-giat-bao-quan-bra-the-thao-luon-ben-dep-chuan-form-1.png",
+      "content": "Để áo thể thao không bị bai giãn, bạn nên giặt bằng tay hoặc chế độ nhẹ, không dùng nước nóng và tránh phơi dưới ánh nắng trực tiếp. Khi ủi, hãy lộn trái áo và dùng nhiệt độ thấp để giữ form và chất liệu bền lâu hơn."
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "VOUCHER10",
+      "code": "GIAM10",
+      "title": "Giảm 10% cho đơn hàng từ 300.000đ",
+      "description": "Áp dụng cho tất cả sản phẩm trong cửa hàng.",
+      "discountType": "percent",
+      "discountValue": 10,
+      "minOrderValue": 300000,
+      "expiryDate": "2025-12-31",
+      "image": "https://cdn-icons-png.flaticon.com/512/992/992703.png"
+    },
+    {
+      "id": "VOUCHER50K",
+      "code": "GIAM50K",
+      "title": "Giảm 50.000đ cho đơn từ 500.000đ",
+      "description": "Áp dụng cho khách hàng thân thiết.",
+      "discountType": "fixed",
+      "discountValue": 50000,
+      "minOrderValue": 500000,
+      "expiryDate": "2025-11-30",
+      "image": "https://cdn-icons-png.flaticon.com/512/684/684908.png"
+    },
+    {
+      "id": "FREESHIP",
+      "code": "FREESHIP",
+      "title": "Miễn phí vận chuyển",
+      "description": "Áp dụng cho đơn từ 200.000đ trở lên.",
+      "discountType": "freeship",
+      "discountValue": 0,
+      "minOrderValue": 200000,
+      "expiryDate": "2025-12-31",
+      "image": "https://cdn-icons-png.flaticon.com/512/2593/2593829.png"
+    },
+    {
+      "id": "1761663438519",
+      "code": "Giảm 5%",
+      "title": "Giảm 5% cho đơn hàng từ 250k trở lên",
+      "description": "Dành cho khách hàng mới ",
+      "discountType": "percent",
+      "discountValue": "5",
+      "minOrderValue": "250000",
+      "expiryDate": "2025-11-30",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "id": "1762604937095",
+      "code": "Giảm 4%",
+      "title": "Giảm 4% cho khách hàng thân thiết",
+      "description": "Giảm giá 4% cho khách hàng",
+      "discountType": "percent",
+      "discountValue": 5,
+      "minOrderValue": 40000,
+      "expiryDate": "2026-02-27",
+      "image": "https://cdn-icons-png.flaticon.com/512/992/992703.png"
+    }
+  ]
+}
