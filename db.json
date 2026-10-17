@@ -314,6 +314,22 @@
       "userName": "Nguyen Vuong",
       "rating": 5,
       "comment": "áo mặc tốt sẽ mua lại"
+    },
+    {
+      "id": "1768913692334",
+      "productId": 7,
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "rating": 5,
+      "comment": "chất lượng tốt"
+    },
+    {
+      "id": "1768917781523",
+      "productId": 1,
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "rating": 4,
+      "comment": "sản phẩm tệ"
     }
   ],
   "orders": [
@@ -522,9 +538,52 @@
       ],
       "total": 229000,
       "voucher": "FREESHIP"
+    },
+    {
+      "id": "1768917141287",
+      "createdAt": "2026-01-20T13:52:21.287Z",
+      "status": "delivered",
+      "deliveryStatus": "delivered",
+      "userId": "1",
+      "userName": "Nguyen Vuong",
+      "address": "419 đường phan trọng tuệ, hà nội",
+      "phone": "0921961012",
+      "coords": [
+        20.9575051,
+        105.8071677
+      ],
+      "items": [
+        {
+          "productId": "1",
+          "name": "Giày thể thao nam Fly",
+          "price": 900000,
+          "quantity": 1,
+          "size": 41,
+          "image": "https://ash.vn/cdn/shop/files/c1dfe39fe482283d70d11640af02b80c_800x.jpg?v=1741354946"
+        }
+      ],
+      "total": 855000,
+      "voucher": "Giảm 5%"
     }
   ],
-  "favorites": [],
+  "favorites": [
+    {
+      "id": "1768913667560",
+      "userId": "1",
+      "productId": "7",
+      "name": "Tất thể thao nam",
+      "price": 360000,
+      "image": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1359ff009f814d3eadebaf47013f155e_9366/Bo_3_DJoi_Tat_Cao_Co_Co_DJem_trang_IA3949_01_01_00_standard.jpg"
+    },
+    {
+      "id": "1768917167235",
+      "userId": "1",
+      "productId": "2",
+      "name": "Áo thun thể thao nam",
+      "price": 250000,
+      "image": "https://n7media.coolmate.me/uploads/September2025/ao-the-thao-nam-promax-recycle-basics1-hong-marsala-1_10.jpg?aio=w-1100"
+    }
+  ],
   "blogs": [
     {
       "id": "1",
@@ -580,7 +639,7 @@
       "title": "Miễn phí vận chuyển",
       "description": "Áp dụng cho đơn từ 200.000đ trở lên.",
       "discountType": "freeship",
-      "discountValue": 0,
+      "discountValue": 20000,
       "minOrderValue": 200000,
       "expiryDate": "2025-12-31",
       "image": "https://cdn-icons-png.flaticon.com/512/2593/2593829.png"
